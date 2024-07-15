@@ -83,7 +83,7 @@ class GameActivity : AppCompatActivity() {
                 button1.isEnabled = false
                 button2.isEnabled = false
 
-                object : CountDownTimer(3000, 1000) {
+                object : CountDownTimer(4000, 1000) {
                     @SuppressLint("SetTextI18n")
                     override fun onTick(millisUntilFinished: Long) {
                         button1.text = "Timeout: ${millisUntilFinished / 1000}s"
@@ -128,7 +128,7 @@ class GameActivity : AppCompatActivity() {
                 button1.isEnabled = false
                 button2.isEnabled = false
 
-                object : CountDownTimer(3000, 1000) {
+                object : CountDownTimer(4000, 1000) {
                     @SuppressLint("SetTextI18n")
                     override fun onTick(millisUntilFinished: Long) {
                         button1.text = "Timeout: ${millisUntilFinished / 1000}s"
