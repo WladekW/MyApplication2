@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name=".MyApp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    android:background="#FDEAD6"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/set_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_margin="30dp"
+        android:background="@null"
+        android:contentDescription="Settings Button"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/settings"
+        tools:ignore="DuplicateIds" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="JustC"
+        android:gravity="bottom"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:textColor="#333"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#666"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Before starting the game, please familiarize yourself with the options that are located in the settings section in the upper right corner" />
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button3_background"
+        android:fontFamily="sans-serif-light"
+        android:text="Play"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="60dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="1.0"
+            android:valueTo="1.0"
+            android:duration="100" />
+        <objectAnimator
+            android:propertyName="scaleY"
+            android:valueFrom="1.0"
+            android:valueTo="1.0"
+            android:duration="120" />
+    </item>
+    <item>
+        <objectAnimator
+            android:propertyName="scaleX"
+            android:valueFrom="1.0"
+            android:valueTo="1.0"
+            android:duration="120" />
+        <objectAnimator
+            android:propertyName="scaleY"
+            android:valueFrom="1.0"
+            android:valueTo="1.0"
+            android:duration="100" />
+    </item>
+</selector>

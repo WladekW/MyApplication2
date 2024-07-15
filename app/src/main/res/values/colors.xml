@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_desired_background_color">#FFF0EC</color>
+
+    <color name="night_background_color">#333333</color>
+    <color name="night_accent_color">#FFFFFFFF</color>
+    <color name="night_text_color">#FFF0EC</color>
+    <color name="night_button1_color">#6BD1FF</color>
+    <color name="night_button2_color">#FF8362</color>
+
+    <color name="light_button1_color">#333333</color>
+    <color name="light_button2_color">#00666666</color>
+
+    <color name="colorPrimary">#BD1CBB</color>
+    <color name="colorPrimaryDark">#8BC34A</color>
+    <color name="colorAccent">#503229</color>
+    <color name="buttonColor">#003C02</color>
+</resources>
